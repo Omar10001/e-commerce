@@ -39,7 +39,7 @@ export default function DarkMode() {
   }, [theme]);
 
   return (
-    <div className="">
+    <div className="ml-2">
       {options?.map((opt) => (
         <button
           key={opt.text}
