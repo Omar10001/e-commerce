@@ -16,7 +16,6 @@ const Header = () => {
             }`}
           >
             <DarkMode />
-            
           </div>
           <div className="flex items-center justify-between py-5 md:py-4 md:block">
             <NavLink to="home">

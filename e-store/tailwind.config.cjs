@@ -7,7 +7,9 @@ module.exports = {
     './src/App.jsx',
     './src/components/Header/header.jsx',
     './src/pages/Home.jsx',
-    './src/components/darkMode/darkMode.jsx'
+    './src/components/darkMode/darkMode.jsx',
+    './src/components/UI/cards.jsx',
+    './src/components/Footer/footer.jsx'
   ],
   theme: {
     extend: {},

@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
     return(
-        <div>Footer</div>
+        <div className="w-full sticky bottom-0">Fo</div>
     )
 }
 
