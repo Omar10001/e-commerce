@@ -44,7 +44,7 @@ export default function DarkMode() {
         <button
           key={opt.text}
           onClick={() => setTheme(opt.text)}
-          className={`text-black  dark:text-[#F806CC] text-2xl md:mt-2 md:text-2xl   ${
+          className={`text-black  dark:text-[#F806CC] w-full text-start text-2xl md:mt-2 md:text-2xl   ${
             theme === opt.text ? "hidden transition-all duration-300" : ""
           }`}
         >

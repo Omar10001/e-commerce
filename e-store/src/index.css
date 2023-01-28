@@ -6,3 +6,42 @@
 *{
   font-family: 'poppins';
 }
+body{
+  width: auto;
+  height: auto;
+  overflow: overlay;
+}
+
+.customshadow:hover
+{
+  box-shadow: 1px 1px 50px -10px rgba(255,255,255,0.8);
+  transition: all;
+  transition-duration: 300ms;
+
+}
+
+#more{
+  display: none;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:transparent;
+  border-radius: 0px;
+}
+
+
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d3d3d3; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #949494; 
+}
